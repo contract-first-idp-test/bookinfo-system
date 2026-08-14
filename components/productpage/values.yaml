@@ -1,0 +1,6 @@
+implementationProfile: nodejs-openapi
+build:
+  enabled: true
+  profile: nodejs
+  repository: https://github.com/contract-first-idp-test/bookinfo-productpage-service.git
+  revision: main
