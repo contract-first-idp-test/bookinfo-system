@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: bookinfo
+  title: bookinfo
+  description: Bookinfo Application
+  annotations:
+    contract-first-idp.github.io/scm-provider: github
+    contract-first-idp.github.io/scm-host: github.com
+    contract-first-idp.github.io/domain-org: contract-first-idp-test
+    contract-first-idp.github.io/domain-repo: customer-experience-domain
+    contract-first-idp.github.io/repository-name: bookinfo-system
+spec:
+  owner: group:default/domain-maintainers
+  domain: domain:default/customer-experience
+  groupId: io.github.cfidp.bookinfo
